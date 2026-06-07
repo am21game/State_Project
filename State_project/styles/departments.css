@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+#departments {
+    text-align: center;
+    margin-top: 20px;
+    color: #020202;
+}
+#Staff_h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #11d45c;
+}
+#SSP_h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #1155d4;
+}
+#RCPD_h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #080747;
+}
+#RCSO_h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6d5a06;
+}
+
+.ingame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #353535;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.ingame:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+div {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #b9b9b9;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+#management-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
